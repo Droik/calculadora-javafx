@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
+   <children>
+      <Label layoutX="30.0" layoutY="48.0" prefHeight="17.0" prefWidth="67.0" text="Numero 1" />
+      <Label layoutX="30.0" layoutY="87.0" text="Numero 2" />
+      <Label layoutX="30.0" layoutY="130.0" text="Resultado" />
+      <TextField fx:id="txtNumero1" layoutX="30.0" layoutY="65.0" />
+      <TextField fx:id="txtNumero2" layoutX="30.0" layoutY="103.0" />
+      <TextField fx:id="txtResultado" layoutX="30.0" layoutY="147.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button fx:id="btnSomar" layoutX="191.0" layoutY="147.0" mnemonicParsing="false" onAction="#somar" prefHeight="25.0" prefWidth="73.0" text="Somar" />
+      <Button fx:id="txtSubtrair" layoutX="191.0" layoutY="103.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="25.0" prefWidth="73.0" text="Subtrair" />
+      <Button fx:id="txtDividir" layoutX="194.0" layoutY="65.0" mnemonicParsing="false" onAction="#Dividir" prefHeight="25.0" prefWidth="67.0" text="Dividir" />
+      <Button fx:id="txtMultiplicar" layoutX="191.0" layoutY="182.0" mnemonicParsing="false" onAction="#multiplicar" text="Multiplicar" />
+   </children>
+</AnchorPane>
